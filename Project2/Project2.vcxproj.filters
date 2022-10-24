@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d912fcb7-9e90-4874-8ca2-acdb5b2b6795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HyperCube.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="game_logic.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="shader\text.fs">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="shader\text.vs">
+      <Filter>Headers</Filter>
+    </None>
+    <None Include="shader\shadow_mapping.fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\shadow_mapping.vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\shadow_mapping_depth.fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\shadow_mapping_depth.vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\skybox.fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\skybox.vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\TexturedFragmentShader.fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\TexturedVertexShader.vs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="resources\Models\Models - Shortcut.lnk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperCube.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game_logic.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\packages\ft2build.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJloaderV2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\BebasNeue Bold.otf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\Models\ufo_diffuse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\Models\ufo_diffuse_glow.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\Models\ufo_diffuse2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\Models\ufo_diffuse2_glow.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\Models\ufo_normal.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\Models\ufo_spec.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\2space2048.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\2319.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\awesomeface.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\blackblue.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\bluelaser.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\brick.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\brickwall.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\cement.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\comf.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\container.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\container2.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\floor.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\greentile.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\index.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\k.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\l.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\marble.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\matrix.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\metal.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\metal.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\orangeWall.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\p.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\q.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\redlaser.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\scifi.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\sci-fi_t.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\spaceHall.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\spacestation.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\stonewall.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\toy_box_diffuse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\ufo_diffuse.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\unnamed.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\walkway.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\wall.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\window.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\wood.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="resources\textures\yellowWall.jpg">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

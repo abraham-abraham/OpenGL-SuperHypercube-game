@@ -1,0 +1,5 @@
+1. 
+Assimp set up:
+Tool -> NuGet package manage->manage for solution ->browse -> search assimp ->select your project and install
+
+done

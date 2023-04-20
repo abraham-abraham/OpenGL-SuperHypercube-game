@@ -21,9 +21,9 @@
 #include "game_logic.h"
 //#include "headers/filesystem.h"
 
-#include <IrrKlang/include/irrKlang.h>
+//#include <IrrKlang/include/irrKlang.h>
 //#include "C:\Users\Ibrah\OneDrive\Desktop\FinalProject-backup\FinalProject-backup\packages\IrrKlang\include\irrKlang.h"
-//#include <irrKlang.h>
+#include <irrKlang.h>
 #include "OBJloaderV2.h"
 #include "OBJloader.h"
 
@@ -142,7 +142,7 @@ float modelZposition = 10.f;
 int level = 1;
 float wallZspace = -60.0f;
 
-float gameSpeed = 0.04f;
+float gameSpeed = 0.03f;
 //0.0f;
 //float fastGameSpeed = 0.1f;
 
@@ -1080,7 +1080,7 @@ int main(int argc, char* argv[])
 		else {
 			gameLogic->endGame();
 			level = 1;
-			gameSpeed = 0.04f;
+			gameSpeed = 0.03f;
 			wallZspace = -60.0f;
 		}
 		
@@ -1171,7 +1171,7 @@ int main(int argc, char* argv[])
 		else {
 			gameLogic->endGame();
 			level = 1;
-			gameSpeed = 0.04f;
+			gameSpeed = 0.03f;
 			wallZspace = -60.0f;
 		}
 
@@ -1227,8 +1227,9 @@ int main(int argc, char* argv[])
 
 		if (gameLogic->isPlaying()) {
 
-			cameraZoom = 12.0f;
-			cameraPosition.z = z + 25.0f;
+			cameraZoom = 6.2f;
+			//cameraPosition.z = z + 25.0f;
+			cameraPosition.z = z + 20.0f;
 			cameraPosition.y = 8.0f;
 
 			// moving the model forward
@@ -1237,7 +1238,7 @@ int main(int argc, char* argv[])
 			{
 				// Speed up
 				if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
-					z -= gameSpeed * 3;
+					z -= gameSpeed * 1;
 				}
 				else
 					z -= gameSpeed;
@@ -1261,7 +1262,7 @@ int main(int argc, char* argv[])
 				rMatrix = mat4(1.0f);
 				wallZspace += 1.0f;
 				if(gameSpeed < 0.068f)
-				gameSpeed += 0.003f;
+				gameSpeed += 0.0003f;
 				randomizeModelRotation();
 				gameLogic->gainPoints(100);
 				gameLogic->nextLevel(1);
@@ -1294,11 +1295,6 @@ int main(int argc, char* argv[])
 			resetModelPos();
 		}
 		lastOstate = glfwGetKey(window, GLFW_KEY_O);
-
-
-	
-
-
 
 		// End Frame
 		glfwSwapBuffers(window);
@@ -1588,7 +1584,7 @@ bool initialize() {
 	//glfwGetPrimaryMonitor()
 	//glfwGetPrimaryMonitor()
 
-	window = glfwCreateWindow(WIDTH, HEIGHT, "Comp371 - Project", NULL, NULL);
+	window = glfwCreateWindow(WIDTH, HEIGHT, "OpenGL - Super Hypercube", NULL, NULL);
 
 	if (window == NULL)
 	{
@@ -2364,8 +2360,6 @@ GLboolean checkCollision(vector<vec3> wallVec, vector<vec3> modelVec) {
 }
 
 void loadLevel(Shader shader, int mesh[3][3][3]) {
-
-
 
 	//shuffle the model
 	/*cout << rn1 << "\n";

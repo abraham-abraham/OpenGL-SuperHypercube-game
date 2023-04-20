@@ -1,0 +1,55 @@
+﻿  game_logic.cpp
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\game_logic.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\Shader.h(55,40): warning C4101: 'e': unreferenced local variable
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\game_logic.cpp(122,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\game_logic.cpp(145,33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  HyperCube.cpp
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\HyperCube.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+  main.cpp
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\Shader.h(55,40): warning C4101: 'e': unreferenced local variable
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(212,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(292,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(293,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(894,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1184,22): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1279,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1280,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1282,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1283,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1297,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1593,12): warning C4305: 'return': truncation from 'int' to 'bool'
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1603,12): warning C4305: 'return': truncation from 'int' to 'bool'
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1695,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1713,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1729,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1744,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1760,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1776,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2075,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2089,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2142,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2143,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2163,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2324,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2416,7): warning C4101: 'letterPositionMat': unreferenced local variable
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2631,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2632,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2633,12): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2784,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2846,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2869,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2872,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2873,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2910,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2913,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(2914,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Wall.cpp
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\Wall.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\shader.h(55,40): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\main.cpp(1641): warning C4715: 'initialize': not all control paths return a value
+C:\Data\My Projects\SuperHypercube-OpenGL-game\Project2\game_logic.cpp(108): warning C4715: 'GameLogic::buildFreeText': not all control paths return a value
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Project2.vcxproj -> C:\Data\My Projects\SuperHypercube-OpenGL-game\x64\Debug\Project2.exe
